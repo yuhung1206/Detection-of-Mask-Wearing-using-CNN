@@ -4,7 +4,7 @@ A Convolution Neural Network (CNN) is applied to detect whether the masks are co
   
   
 Over 3000 mask-wearing faces from 682 images were included in this project.  
-The images all comes from Medical Masks Dataset, which were originally collected by Cheng Hsun Teng from Eden Social Welfare Foundation at https://public.roboflow.com/object-detection/mask-wearing  
+The images all comes from Medical Masks Dataset, which were originally collected by Cheng Hsun Teng from Eden Social Welfare Foundation at　-> https://public.roboflow.com/object-detection/mask-wearing  
 
   
 Our purpose is to classify 3 types of faces, including **correct mask-wearing, wrong mask-wearing & no mask-wearing**  
@@ -16,9 +16,15 @@ Our purpose is to classify 3 types of faces, including **correct mask-wearing, w
 | No mask-wearing ("Bad")            |          578  |           89 |
   
   
-## Overall Structure of system  
- 1. Image Preprocessing : Resize Images to [64,64]
- 2. CNN for Classification : training the model with **Torch** package  
+## Execution & Overall Structure of system  
+ 1. Image Preprocessing : Resize Images to [64,64]  
+    ```
+    python3 Image_Preprocess.py
+    ```
+ 3. CNN for Classification : training the model with **Torch** package    
+    ```
+    python3 CNN.py
+    ```
 
 ## Image Preprocessing  
   1. Extract **faces** (sub-image) from picture according to the bounding box provided by Medical Masks Dataset with **openCV**
