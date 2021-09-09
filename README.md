@@ -35,7 +35,7 @@ Our purpose is to classify 3 types of faces, including **correct mask-wearing, w
       
   - Imbalanced Dataset Problem  
     
-    From the Table given above, it was found that the data amount of "No mask-wearing" is least, which resulted in the poor accuracy in Test data because the model would focus on the majority class and ignore the minority class.  
+    From the Table given above, it was found that the data amount of "No mask-wearing" is least, which resulted in the poor sensitivity of Test data because the model would focus on the majority class and ignore the minority class.  
       
     | Type (notation)                    | Train Sensitivity | Test Sensitivity |
     | ---------------------------------- | ----------------- |----------------- |
