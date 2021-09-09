@@ -43,7 +43,7 @@ Our purpose is to classify 3 types of faces, including **correct mask-wearing, w
     | Wrong mask-wearing ("None")        |             97.4% |            95.5% |
     | No mask-wearing ("Bad")            |             80.8% |              50% |  
     
-    To tackle this problem, the heavier penalty is imposed on the minority class to emphasize the learning of the minority class.  
+    To tackle this problem, the heavier penalty is imposed on the minority class to emphasize the learning of the minority class via re-weight scheme.  
     The implmentation is shown as:  
     
     ![image](https://user-images.githubusercontent.com/78803926/132667884-507c7455-61fd-4f03-aa5b-a331197bc49a.png)  
