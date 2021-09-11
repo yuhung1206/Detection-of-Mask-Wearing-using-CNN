@@ -2,7 +2,7 @@
 
 A Convolution Neural Network (CNN) is applied to detect whether the masks are correctly worn.  
   
-  
+## Dataset
 Over 3000 mask-wearing faces from 682 images were included in this project.  
 The images all comes from Medical Masks Dataset, which were originally collected by Cheng Hsun Teng from Eden Social Welfare Foundation at　-> https://public.roboflow.com/object-detection/mask-wearing  
 
