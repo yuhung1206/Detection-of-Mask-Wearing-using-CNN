@@ -21,7 +21,7 @@ Our purpose is to classify 3 types of faces, including **correct mask-wearing, w
     ```
     python3 Image_Preprocess.py
     ```
- 3. CNN for Classification : training the model with **Torch** package    
+ 2. CNN for Classification : training the model with **Torch** package    
     ```
     python3 CNN.py
     ```
